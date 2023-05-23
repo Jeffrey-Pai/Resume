@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的簡歷</title>
+    <link rel="icon" href="images/resume_icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/bootstrap.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>我的簡歷</title>
-  <link rel="icon" href="images/resume_icon.png" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <script src="js/bootstrap.js"></script>
-</head>
+  <body class="bg-light">
+    <!-- 導覽列 -->
+    <nav
+      class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light text-bg-info"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">我的簡歷</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="personalInfo.html"
+                >個人資料</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="educationBackgroun.html">學歷</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jobExperience.html">工作經驗</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">聯絡方式</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<body class="bg-light">
-  <!-- 導覽列 -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">我的簡歷</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="personalInfo.html">個人資料</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="educationBackgroun.html">學歷</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="jobExperience.html">工作經驗</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">聯絡方式</a>
-          </li>
-        </ul>
+    <!-- 內容 -->
+    <div class="container mt-5">
+      <!-- 學歷 -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h1>個人資料</h1>
+          <h3>自傳</h3>
+          <p>
+            【關於我】<br />
+            出生於1999年，大學就讀於淡江大學應用物理系。個性隨和且邏輯清晰，懂得換位思考，不易與人發生爭執，在團隊合作中，可以良好的溝通及互動，除了專業技能外，更重要的是團隊合作。<br /><br />
+            【求學經歷】<br />
+            在學期時期，雖然就讀於物理系，但對於程式設計也有興趣，因此修了計算機概論與數值方法等相關的課程，讓我邏輯思維更加清晰。在課餘時間，也對財經方面略有研究，因此參加元大飆股第四屆比賽，憑著理性冷靜的分析，最後以報酬率102%收尾，榮獲個人第六名的成績。<br /><br />
+            【未來展望】<br />
+            〈提升撰寫程式能力〉<br />
+            利用現在發達的資訊，在網路上攝取程式相關知識，持續精進自己，並做出更優質的網頁。<br />
+            〈提升語言能力與國際觀〉<br />
+            台灣是一個海島國家，必須依賴出口才能使國家經濟穩定發展，因此學好外語與了解國際局勢有利於與外商合作，計畫開始每天閱讀一小時英文新聞，累計英文實力與國際觀。
+          </p>
+        </div>
       </div>
     </div>
-  </nav>
-
-  <!-- 內容 -->
-  <div class="container mt-5">
-    <!-- 學歷 -->
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h1>個人資料</h1>
-        <h3>自傳</h3>
-        <p>
-          【關於我】<br />
-          出生於1999年，大學就讀於淡江大學應用物理系。個性隨和且邏輯清晰，懂得換位思考，不易與人發生爭執，在團隊合作中，可以良好的溝通及互動，除了專業技能外，更重要的是團隊合作。<br /><br />
-          【求學經歷】<br />
-          在學期時期，雖然就讀於物理系，但對於程式設計也有興趣，因此修了計算機概論與數值方法等相關的課程，讓我邏輯思維更加清晰。在課餘時間，也對財經方面略有研究，因此參加元大飆股第四屆比賽，憑著理性冷靜的分析，最後以報酬率102%收尾，榮獲個人第六名的成績。<br /><br />
-          【未來展望】<br />
-          〈提升撰寫程式能力〉<br />
-          利用現在發達的資訊，在網路上攝取程式相關知識，持續精進自己，並做出更優質的網頁。<br />
-          〈提升語言能力與國際觀〉<br />
-          台灣是一個海島國家，必須依賴出口才能使國家經濟穩定發展，因此學好外語與了解國際局勢有利於與外商合作，計畫開始每天閱讀一小時英文新聞，累計英文實力與國際觀。
-        </p>
-      </div>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
